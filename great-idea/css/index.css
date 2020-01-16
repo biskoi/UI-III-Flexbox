@@ -64,3 +64,121 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+body{
+	width: 100%;
+}
+
+.main{
+	margin: 5%;
+}
+
+/*
+Navbar
+*/
+
+
+*{
+	max-width: 100%;
+}
+.navbar{
+	display: flex;
+	width: 100%;
+}
+
+nav a{
+	color: grey;
+	text-decoration: none;
+	padding-top: 0.5%;
+}
+
+
+nav{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+}
+
+.links *{
+	width: 5%;
+}
+
+
+/*pagetop*/
+
+.pageTop{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.innovation{
+	text-align: center;
+	font-size: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: space-evenly;
+}
+
+.innovation button{
+	font-size: 20px;
+	width: 50%;
+	border: 2px inset black;
+	background: white;
+	margin-left: 25%;
+}
+
+
+
+.innovation button:active{
+background: black;
+color: white;
+}
+
+
+
+/*
+Main Content CSS
+*/
+
+.content{
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
+	font-family: 'Roboto Mono', monospace;
+	padding: 2% 0;
+}
+
+.contentTop {
+display: flex;
+}
+
+.middle-img{
+	width: 100%;
+	padding: 2% 0;
+}
+
+.contentBottom {
+display: flex;
+}
+
+/*
+Footer
+*/
+
+address h3{
+	padding: 4% 0% 1% 0%;
+}
+
+address .phone{
+	padding: 1% 0 0 0;
+}
+
+address .email{
+	padding: 1% 0 1% 0;
+}
+
+footer{
+	text-align: center;
+	padding: 4%;
+}
