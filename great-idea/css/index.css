@@ -82,28 +82,25 @@ Navbar
 *{
 	max-width: 100%;
 }
-.navbar{
+
+nav {
 	display: flex;
-	width: 100%;
+	align-items: center;
 }
 
 nav a{
 	color: grey;
 	text-decoration: none;
-	padding-top: 0.5%;
 }
 
 
 nav{
 display: flex;
-
-justify-content: space-evenly;
+justify-content: space-between;
 width: 100%;
 }
 
-.links *{
-	width: 5%;
-}
+
 
 
 /*pagetop*/
