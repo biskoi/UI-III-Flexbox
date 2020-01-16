@@ -96,6 +96,7 @@ nav a{
 
 nav{
 display: flex;
+
 justify-content: space-evenly;
 width: 100%;
 }
@@ -181,4 +182,69 @@ address .email{
 footer{
 	text-align: center;
 	padding: 4%;
+}
+
+/*services*/
+
+.services-header-img {
+	width: 100%;
+}
+
+.servicesTop {
+padding: 2% 0%;
+border-bottom: black 2px solid;
+}
+
+.boxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.boxes div{
+	border: black solid 1px;
+	background: #FEEBEB;
+	width: 47%;
+	margin: 5% 0;
+	padding: 2%;
+}
+
+.boxes div div{
+	padding: 1%;
+	border: 0;
+}
+
+.boxes div button{
+background: white;
+color: black;
+border: solid 1px black;
+border-radius: 5px;
+padding: 2%;
+width: 70%;
+}
+
+#servicesFooter{
+	text-align: left;
+	border-top: solid black 2px;
+	display: flex;
+	justify-content: space-between;
+	padding: 3% 0%;
+}
+
+#servicesFooter section{
+padding: 5% 2% 0 0;
+width: 50%;
+}
+
+ul{
+	list-style-type: square;
+	padding: 3% 0 0 5%;
+}
+
+#copyright{
+	text-align: center;
+	margin-top: 4%;
+}
+.services-info-img{
+width: 50%;
 }
